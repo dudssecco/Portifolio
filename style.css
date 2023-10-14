@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;600;800&family=Passion+One:wght@400;700;900&display=swap');
+
+
+:root{
+
+    --header-footer: #231942;
+    --fundo: #9F86C0;
+    --fundo2: #5E548E;
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--fundo);
+    font-family: 'Gabarito', sans-serif;
+}
+
+header{
+    background-color: var(--header-footer);
+    width: 100%;
+    height: 80px;
+}
+
+header > nav{
+    text-align: end;
+    height: 20px;
+    padding: 10px;
+    padding-top: 27px;
+}
+
+header > nav > a{
+    padding: 5px 25px;
+    color: white;
+    text-decoration: none;
+}
+
+section.home{
+    padding: 50px;
+}
+
+div.container-home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+div.text-home{
+    font-size: 42px;
+    padding-top: 150px;
+    color: white;
+}
+
+span.hello{
+    font-weight: 600;
+    font-size: 60px;
+}
+
+img{
+    background-color: transparent;
+    width: 700px;
+    height: 525px;
+}
+    
